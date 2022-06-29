@@ -1,0 +1,14 @@
+{ 
+  "extends" : [ 
+    "html-validate:recommended" 
+  ] , 
+
+  "rules" : { 
+    "close-order" : "error" , 
+    "void" : [ "warn" ,  { "style" : "pomiń" } ] 
+  } 
+}
+< p > 
+  < button > Kliknij mnie! </ button > 
+  < div  id =" show-me " > 
+    Lorem ipsum </ div > </ p >
